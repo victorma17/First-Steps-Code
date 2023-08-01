@@ -1,8 +1,8 @@
 var Web3 = require("web3")
 // provider
-var testnet = "https://eth-goerli.alchemyapi.io/v2/Ro2kFlEcfKwtXNJNokxfIHLbiE- uZbnM"
+var testnet = "https://eth-goerli.g.alchemy.com/v2/4oCX73Qmleo65zFnQkT-LK8BfWAwXTKT"
 // public account
-var walletAddress = "0xff21E724B7D483fc93708855AbE6ee4f1eD97BF3"
+var walletAddress = "0x1157466D2Df9D52672e8a62E5e346e8d38B68b84"
 // conexión
 const web3 = new Web3(new Web3.providers.HttpProvider(testnet));
 // obtenemos el balance
