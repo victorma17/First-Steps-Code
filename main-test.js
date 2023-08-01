@@ -3,4 +3,18 @@
 
 const axios = require('axios')
 
-console.log(axios)
+async function getUsuarios() {
+    const res = null
+    try {
+        res = await axios.get('https://jsonplaceholder.typicode.com/users')
+    } catch (e) {
+        e
+    }
+    return res;
+
+}
+// combination async - await
+(async () => {
+    resultado = await getUsuarios();
+    console.log(resultado)
+})();
