@@ -2,6 +2,7 @@
   "dependencies": {
     "@solana/web3.js": "^1.78.2",
     "axios": "^1.4.0",
+    "fs": "^0.0.1-security",
     "pg": "^8.11.2",
     "web3": "^4.0.3",
     "yarn": "^1.22.19"
